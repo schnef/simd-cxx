@@ -1,0 +1,4 @@
+= Introduction =
+SIMD (SIMple Dds) is an API that makes it much simpler to program DDS in C++. This API is also being considered for standardization at the OMG (http://www.omg.org) and in any case is influencing the way in which the upcoming C++ API for DDS will look like.
+ 
+The current release of SIMD works off the shelf with OpenSplice DDS (http://www.opensplice.org), this version was chosen because it is a full implementation of the OMG DDS Standard and in addition it is Open Source.  
