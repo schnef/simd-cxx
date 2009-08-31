@@ -1,4 +1,24 @@
-= Introduction =
 SIMD (SIMple Dds) is an API that makes it much simpler to program DDS in C++. This API is also being considered for standardization at the OMG (http://www.omg.org) and in any case is influencing the way in which the upcoming C++ API for DDS will look like.
  
 The current release of SIMD works off the shelf with OpenSplice DDS (http://www.opensplice.org), this version was chosen because it is a full implementation of the OMG DDS Standard and in addition it is Open Source.  
+
+= Getting Started =
+
+At the present time SIMD is only available for Linux 2.6 Operating Systems, new OSes will come shortly. 
+
+== Downloading SIMD ==
+The latest SIMD distribution can be downloaded at http://code.google.com/p/simd-cxx/downloads/list
+
+== Building SIMD ==
+To install the SIMD source distribution you'll need to ensure that BOOST (see  www.boost.org) is properly installed in your machine and that two environment variable are pointing to the include and libraries directory for BOOST. Namely:
+
+BOOST_INCLUDE: points at the include directory
+BOOST_LIB: points at the library directory
+
+Once BOOST is properly installed and configured, simply do the following:
+
+$./configure
+$ . simd.env
+$ make
+
+ 
