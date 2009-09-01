@@ -18,7 +18,9 @@ BOOST_LIB: points at the library directory
 Once BOOST is properly installed and configured, simply do the following:
 
 $./configure
+
 $ . simd.env
+
 $ make
 
  
