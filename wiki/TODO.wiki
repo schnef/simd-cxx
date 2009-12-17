@@ -2,7 +2,7 @@
 
 = SIMD TODO =
 
-Below is a prioritized list of the items that have to be implemented/fixed in SIMD
+Below is a prioritized list of the items that have to be implemented/fixed in SIMD. To get more context on why certain things are needed, you might want to look at the wiki page on SIMD [History]
 
 
 == CORE ==
