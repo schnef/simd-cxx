@@ -1,0 +1,15 @@
+#List of TODO items for SIMD
+
+= SIMD TODO =
+
+Below is a prioritized list of the items that have to be implemented/fixed in SIMD
+
+
+== CORE ==
+
+
+== API ==
+
+== Tutorial ==
+
+== Code Documentation ==
