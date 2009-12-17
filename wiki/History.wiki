@@ -9,5 +9,4 @@ As a result I decided that SIMD could really become what CZed used to be (see cz
 SIMD is thus evolving toward the new ISO standard C++ API for DDS and as a result its core is being re-factored to make it simple to "plug" various vendor implementation of the API. This re-factoring is taking place now, does not require much work but recently I've been spending more times on flights than at the keyboard. 
 
 
-If you want to contribute to SIMD, please see the #TODO list.
-
+If you want to contribute to SIMD, please see the [TODO] list.
