@@ -16,10 +16,13 @@ BOOST_LIB_DIR: points at the library directory
 
 Once BOOST is properly installed and configured, simply do the following:
 
-$./configure
+$ mkdir build
 
-$ . simd.env
+$ cd build
 
-$ make
+$ cmake ..
+
+$ make; make install
+
 
  
