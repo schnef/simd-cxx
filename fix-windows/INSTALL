@@ -1,0 +1,41 @@
+INSTALL
+-------
+
+To install the SIMD source distribution you'll need to ensure that
+BOOST is properly installed in your machine and that two environment
+variable are pointing to the include and libraries directory for
+BOOST. Namely:
+
+BOOST_INCLUDE_DIR: points at the include directory
+BOOST_LIB_DIR: points at the library directory
+SIMD_INSTALL_DIR: points to the place were you want to install SimD.
+If you don't set it then SimD will install under the ./local folder.
+
+Once BOOST is properly installed and configured, simply do the following:
+
+$ mkdir build
+$ cd build
+$ cmake -DCMAKE_INSTALL_PREFIX=$SIMD_INSTALL_DIR ..
+$ make install
+
+
+Then to see if you installation was successful try out a demo:
+
+cd ./demo/ping
+
+$ cmake .
+$ make
+
+$ ./ping-pub --period 100
+
+$ ./ping-asub --samples 10 
+OpenSplice|DDS . 1
+OpenSplice|DDS . 2
+OpenSplice|DDS . 3
+OpenSplice|DDS . 4
+OpenSplice|DDS . 5
+OpenSplice|DDS . 6
+OpenSplice|DDS . 7
+OpenSplice|DDS . 8
+OpenSplice|DDS . 9
+OpenSplice|DDS . 10
